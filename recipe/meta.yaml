@@ -22,8 +22,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - py2exe <0.13
-    #Relies on build_exe command line interface which is removed at 0.13.0 
+    - py2exe 
     - python >={{ python_min }}
     - __win   # [win]
 
